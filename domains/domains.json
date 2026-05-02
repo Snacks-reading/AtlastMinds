@@ -1,0 +1,7 @@
+{
+  "domains": [
+    { "id": "math", "name": "Mathematics", "description": "Reasoning with numbers and patterns." },
+    { "id": "science", "name": "Science", "description": "Understanding physical and natural systems." },
+    { "id": "language", "name": "Language Arts", "description": "Reading, writing, and communication." }
+  ]
+}

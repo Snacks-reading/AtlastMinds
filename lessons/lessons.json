@@ -1,0 +1,40 @@
+{
+  "lessons": [
+    {
+      "id": "lesson-offline-intro",
+      "moduleId": "arith-core",
+      "title": "Learning Offline Paths",
+      "flow": [
+        { "type": "hook", "content": "Why local-first apps still matter." },
+        { "type": "objective", "content": "Identify file-based loading behavior." },
+        { "type": "activate_prior", "content": "Recall opening an HTML file directly." },
+        { "type": "teach", "content": "Relative paths can load local scripts and styles." },
+        { "type": "guided_practice", "content": "Trace where app.js is loaded from." },
+        { "type": "independent_practice", "content": "Try answering with the word offline." },
+        { "type": "assessment", "content": "Check if answer matches expected tokens." },
+        { "type": "reflection", "content": "What would break if manifests are missing?" }
+      ],
+      "practice": [
+        { "id": "offline-q1", "prompt": "What keyword confirms local mode in this demo?" }
+      ]
+    },
+    {
+      "id": "lesson-feedback-ladder",
+      "moduleId": "lang-grammar",
+      "title": "Feedback Ladder",
+      "flow": [
+        { "type": "hook", "content": "Getting wrong answers can still teach quickly." },
+        { "type": "objective", "content": "Understand hint → explanation → show answer." },
+        { "type": "activate_prior", "content": "Think about your last correction loop." },
+        { "type": "teach", "content": "Miss counts increase support intensity." },
+        { "type": "guided_practice", "content": "Simulate two incorrect submissions." },
+        { "type": "independent_practice", "content": "Recover with a correct response for XP." },
+        { "type": "assessment", "content": "Check streak reset and XP increment." },
+        { "type": "reflection", "content": "How does support scaffolding reduce frustration?" }
+      ],
+      "practice": [
+        { "id": "ladder-q1", "prompt": "Name the first support response after a miss." }
+      ]
+    }
+  ]
+}
