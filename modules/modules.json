@@ -1,0 +1,9 @@
+{
+  "modules": [
+    { "id": "arith-core", "domainId": "math", "title": "Arithmetic Foundations" },
+    { "id": "alg-patterns", "domainId": "math", "title": "Algebra Patterns" },
+    { "id": "sci-observe", "domainId": "science", "title": "Observation Skills" },
+    { "id": "sci-energy", "domainId": "science", "title": "Energy and Motion" },
+    { "id": "lang-grammar", "domainId": "language", "title": "Grammar Essentials" }
+  ]
+}
